@@ -101,7 +101,7 @@ footer {
 .message-received {
   float: left;
   color: black;
-  background-color: lightgray;
+  background-color: #ffc107;
   border-radius: 0.25em 1em 1em 0.25em;
 }
 .message-received:first-child {
@@ -118,7 +118,7 @@ footer {
   padding: 1em 0.5em;
   border-top-width: 0.0625em;
   border-style: solid;
-  border-color: lightgray;
+  border-color: #ffc107;
   color: darkgray;
 }
 .message-box p {
