@@ -184,6 +184,11 @@ body {
   background: #000;
 }
 
+#demo-canvas {
+  position: absolute;
+  width: 100%;
+}
+
 .ok__image-wrapper {
   width: 100%;
   text-align: center;
@@ -191,50 +196,12 @@ body {
 
 .ok__image {
   padding-top: 10vh;
-}
-
-#demo-canvas {
-  position: absolute;
+  height: auto;
   width: 100%;
-}
-
-@media (min-width: 768px) {
-  body {
-    overflow: hidden;
-  }
-
-  .message {
-    max-width: 30em; /* !!!!!!!!!! COMMENT OUT THIS LINE TO MAKE IT FULL WIDTH !!!!!!!!!! */
-  }
-
-  .ok__image {
-    height: 100vh;
-  }
-}
-
-@media (max-width: 767px) {
-  .ok__image {
-    height: auto;
-    width: 100%;
-  }
-
-  .ok__image_col {
-    order: 2;
-  }
-
-  .message {
-    padding: 20px 0 0;
-  }
 }
 
 .ok__logo {
   margin: 20px;
-}
-
-@media (min-width: 768px) {
-  .ok__logo {
-    margin: 30px 20px 0;
-  }
 }
 
 .ok__logo a {
@@ -260,4 +227,40 @@ body {
 
 .ok__logo a:hover .ok__beta {
   color: #FF9D8E;
+}
+
+@media (max-width: 767px) {
+  .ok__image {
+    height: auto;
+    width: 100%;
+  }
+
+  .ok__image_col {
+    order: 2;
+  }
+
+  .message {
+    padding: 20px 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  .ok__logo {
+    margin: 30px 20px 0;
+  }
+
+  .message {
+    max-width: 30em; /* !!!!!!!!!! COMMENT OUT THIS LINE TO MAKE IT FULL WIDTH !!!!!!!!!! */
+  }
+}
+
+@media (min-width: 1200px) {
+  .ok__image {
+    height: 100vh;
+    width: auto;
+  }
 }
