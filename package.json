@@ -1,6 +1,6 @@
 {
   "name": "hub-olegkruchay-com",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
@@ -16,15 +16,24 @@
     "nuxt": "^2.14.6"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/svg": "^0.1.12",
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/google-fonts": "^1.0.3",
     "@nuxtjs/stylelint-module": "^4.0.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "node-sass": "^4.14.1",
     "prettier": "^2.1.2",
+    "sass-loader": "^10.0.2",
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0"
