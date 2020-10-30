@@ -1,0 +1,49 @@
+// header
+.ok-header {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: 'first first . . second second . . third third';
+  text-align: center;
+  align-items: center;
+
+  @media (min-width: 1200px) {
+    grid-template-areas: 'first . . . second second . . . third';
+  }
+
+  .ok-column {
+    color: #777;
+
+    &.first {
+      .ok-link-header {
+        @media (max-width: 850px) {
+          .ok-show {
+            &.mobile {
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .ok-link-header {
+    display: inline-block;
+
+    @media (max-width: 850px) {
+      &:before,
+      &:after {
+        content: none;
+      }
+
+      .ok-show {
+        &.mobile {
+          content: 'i';
+          font-family: 'Niconne', cursive;
+          justify-content: center;
+          font-size: 45px;
+        }
+      }
+    }
+  }
+}
