@@ -2,16 +2,15 @@
   <header class="ok-header">
     <!--  Column 1  -->
     <div class="ok-column first">
-      <NuxtLink
-        exact-active-class="ok-link active"
+      <a
         class="ok-link ok-link-header"
-        :to="header.contactsLink.contactsLinkUri"
+        :href="header.contactsLink.contactsLinkUri"
       >
         <span class="ok-hide mobile">{{
           header.contactsLink.contactsLinkTitle
         }}</span>
         <span class="ok-show mobile">{{ '📨' }}</span>
-      </NuxtLink>
+      </a>
     </div>
 
     <!--  Column 2  -->
@@ -23,16 +22,12 @@
 
     <!--  Column 3  -->
     <div class="ok-column third">
-      <NuxtLink
-        exact-active-class="ok-link active"
-        class="ok-link ok-link-header"
-        :to="header.aboutLink.aboutLinkUri"
-      >
+      <a class="ok-link ok-link-header" :href="header.aboutLink.aboutLinkUri">
         <span class="ok-hide mobile">{{
           header.aboutLink.aboutLinkTitle
         }}</span>
         <span class="ok-show mobile">{{ 'i' }}</span>
-      </NuxtLink>
+      </a>
     </div>
   </header>
 </template>

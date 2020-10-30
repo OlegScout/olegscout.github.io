@@ -1,7 +1,7 @@
 {
   "site": {
     "prefix": "v",
-    "version": "0.2",
+    "version": "0.3",
     "status": "Alpha"
   },
   "license": {
@@ -24,11 +24,11 @@
   },
   "header": {
     "aboutLink": {
-      "aboutLinkUri": "/about",
+      "aboutLinkUri": "https://olegkruchay.com/about",
       "aboutLinkTitle": "about"
     },
     "contactsLink": {
-      "contactsLinkUri": "/contacts",
+      "contactsLinkUri": "https://olegkruchay.com/contacts",
       "contactsLinkTitle": "contacts"
     }
   },
