@@ -15,9 +15,9 @@
 
     <!--  Column 2  -->
     <div class="ok-column second">
-      <NuxtLink to="/" class="ok-link logo">
+      <a :href="header.uri" class="ok-link logo">
         <HeaderLogo />
-      </NuxtLink>
+      </a>
     </div>
 
     <!--  Column 3  -->
