@@ -1,6 +1,6 @@
 # ⛳️ Personal project list web-site called "hub" | hub.olegkruchay.com
 
-###### 🎭🎲️ Current version ```v0.3 Alpha```
+###### 🎭🎲️ Current version ```v0.3.1 Alpha```
 
 ### 🔩🔧 Build Setup 
 

@@ -79,12 +79,12 @@
           }
 
           &:hover {
-            &:after {
+            &::after {
               content: none;
             }
           }
 
-          &:before {
+          &::before {
             background-color: transparent;
             bottom: 0;
           }

@@ -21,8 +21,8 @@ a {
       }
     }
 
-    &:before,
-    &:after {
+    &::before,
+    &::after {
       content: none;
       height: 0;
     }
