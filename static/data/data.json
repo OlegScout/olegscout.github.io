@@ -1,7 +1,7 @@
 {
   "site": {
     "prefix": "v",
-    "version": "0.3",
+    "version": "0.3.1",
     "status": "Alpha"
   },
   "license": {
@@ -23,6 +23,7 @@
     }
   },
   "header": {
+    "uri": "https://olegkruchay.com",
     "aboutLink": {
       "aboutLinkUri": "https://olegkruchay.com/about",
       "aboutLinkTitle": "about"
@@ -51,7 +52,7 @@
         "faIcon": ["far", "heart"],
         "link": {
           "title": "by myself",
-          "uri": "/cv.pdf"
+          "uri": "https://olegkruchay.com/about"
         }
       },
       {
